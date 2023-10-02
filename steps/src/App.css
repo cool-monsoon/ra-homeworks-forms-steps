@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+#root {
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.input-description {
+  margin: 10px 0;
+}
+
+.form-input, .add-btn {
+  padding: 15px 30px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 2px solid #000000;
+  border-radius: 8px;
+}
+
+.form-input:focus {
+  outline: none;
+}
+
+.steps {
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 100%;
+  list-style-type: none;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.delete-btn {
+  padding: 0;
+  border: none;
+  font-weight: bold;
+  background-color: white;
+  cursor: pointer;
+}
+
+.step-counter {
+  width: 40%;
+  margin: 0 auto;
+}
